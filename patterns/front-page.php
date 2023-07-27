@@ -6,7 +6,7 @@
  * Inserter: no
  */
 ?>
-<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+<!-- wp:template-part {"slug":"header"} /-->
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","textColor":"pale-pink"} -->
@@ -62,7 +62,8 @@
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
-<!-- wp:kadence/rowlayout {"uniqueID":"_ef1548-95","columns":3,"colLayout":"equal","kbVersion":2} -->
+<!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:kadence/rowlayout {"uniqueID":"_4c0a84-0d","columns":3,"colLayout":"equal","kbVersion":2} -->
 <!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"_e7f3ff-f6","verticalAlignment":"middle","borderStyle":[{"top":["","",""],"right":["","",""],"bottom":["","",""],"left":["","",""],"unit":"px"}]} -->
 <div class="wp-block-kadence-column kadence-column_e7f3ff-f6"><div class="kt-inside-inner-col"><!-- wp:image {"align":"center","id":101,"width":120,"height":90,"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/Camera.png" alt="" class="wp-image-101" width="120" height="90"/></figure>
@@ -118,9 +119,11 @@
 <!-- /wp:more --></div></div>
 <!-- /wp:kadence/column --></div></div>
 <!-- /wp:kadence/column -->
-<!-- /wp:kadence/rowlayout -->
+<!-- /wp:kadence/rowlayout --></div>
+<!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center","flexWrap":"wrap"},"fontSize":"small"} -->
+<!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center","flexWrap":"wrap"},"fontSize":"small"} -->
 <div class="wp-block-group has-small-font-size"><!-- wp:heading -->
 <h2 class="wp-block-heading">DONT MISS OUT ON OUR NEWS!</h2>
 <!-- /wp:heading -->
@@ -132,6 +135,7 @@
 <!-- wp:kadence/form {"uniqueID":"_f1f0fa-23","hAlign":"center","fields":[{"label":"Email","showLabel":true,"placeholder":"","default":"","description":"","rows":4,"options":[{"value":"","label":""}],"multiSelect":false,"inline":false,"showLink":false,"min":"","max":"","type":"email","required":true,"width":["100","",""],"auto":"","errorMessage":"","requiredMessage":"","slug":"","ariaLabel":""}],"style":[{"showRequired":false,"size":"standard","deskPadding":["","","",""],"tabletPadding":["","","",""],"mobilePadding":["","","",""],"color":"","requiredColor":"","background":"#ffffff","border":"","backgroundOpacity":1,"borderOpacity":1,"borderRadius":"","borderWidth":["","","",""],"colorActive":"","backgroundActive":"","borderActive":"","backgroundActiveOpacity":1,"borderActiveOpacity":1,"gradient":["#999999",1,0,100,"linear",180,"center center"],"gradientActive":["#777777",1,0,100,"linear",180,"center center"],"backgroundType":"solid","backgroundActiveType":"solid","boxShadow":[false,"#000000",0.200000000000000011102230246251565404236316680908203125,1,1,2,0,false],"boxShadowActive":[false,"#000000",0.40000000000000002220446049250313080847263336181640625,2,2,3,0,false],"fontSize":["","",""],"fontSizeType":"px","lineHeight":["","",""],"lineType":"px","rowGap":"","rowGapType":"px","gutter":"","gutterType":"px","tabletRowGap":"","mobileRowGap":"","tabletGutter":"","mobileGutter":""}],"labelFont":[{"color":"#ffffff","size":["","",""],"sizeType":"px","lineHeight":["","",""],"lineType":"px","letterSpacing":"","textTransform":"","family":"","google":"","style":"","weight":"","variant":"","subset":"","loadGoogle":true,"padding":["","","",""],"margin":["","","",""]}],"submit":[{"label":"SUBSCRIBE!","width":["100","",""],"size":"standard","widthType":"auto","fixedWidth":["","",""],"align":["","",""],"deskPadding":["","","",""],"tabletPadding":["","","",""],"mobilePadding":["","","",""],"color":"#ff6900","background":"#ffffff","border":"#ff6900","backgroundOpacity":1,"borderOpacity":1,"borderRadius":"","borderWidth":["","","",""],"colorHover":"","backgroundHover":"","borderHover":"","backgroundHoverOpacity":1,"borderHoverOpacity":1,"icon":"","iconSide":"right","iconHover":false,"cssClass":"","gradient":["#999999",1,0,100,"linear",180,"center center"],"gradientHover":["#777777",1,0,100,"linear",180,"center center"],"btnStyle":"basic","btnSize":"standard","backgroundType":"solid","backgroundHoverType":"solid","boxShadow":[true,"#ff6900",1,1,1,2,0,false],"boxShadowHover":[false,"#000000",0.40000000000000002220446049250313080847263336181640625,2,2,3,0,false]}]} -->
 <div class="wp-block-kadence-form kadence-form-_f1f0fa-23 kb-form-wrap kb-form-align-center"><form class="kb-form" action="" method="post"><div class="kadence-blocks-form-field kb-field-desk-width-100 kb-input-size-standard"><label for="kb_field__f1f0fa-23_0">Email</label><input name="kb_field_0" id="kb_field__f1f0fa-23_0" data-label="Email" type="email" placeholder="" value="" data-type="email" class="kb-field kb-text-style-field kb-email-field kb-field-0" data-required="yes"/></div><input type="hidden" name="_kb_form_id" value="_f1f0fa-23"/><input type="hidden" name="_kb_form_post_id" value=""/><input type="hidden" name="action" value="kb_process_ajax_submit"/><input class="kadence-blocks-field verify" type="text" name="_kb_verify_email" autocomplete="off" aria-hidden="true" placeholder="Email" tabindex="-1"/><div class="kadence-blocks-form-field kb-submit-field kb-field-desk-width-100"><button class="kb-forms-submit button kb-button-size-standard kb-button-width-auto">SUBSCRIBE!</button></div></form></div>
 <!-- /wp:kadence/form --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
+<!-- wp:template-part {"slug":"footer"} /-->
