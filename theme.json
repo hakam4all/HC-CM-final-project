@@ -27,6 +27,7 @@
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
+		"css": "div#headerGrid {\n    display: grid;\n    grid-template-columns: 90% 10%;\n    \n}\n\n.wp-block-search__input{\ndisplay:none;\n}",
 		"elements": {
 			"link": {
 				"typography": {
