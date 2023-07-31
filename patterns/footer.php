@@ -6,9 +6,9 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"backgroundColor":"black","layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group has-black-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|50"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0;padding-top:var(--wp--preset--spacing--50)"><!-- wp:navigation {"ref":7,"textColor":"white","layout":{"type":"flex","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"var:preset|spacing|50"}}} /--></div>
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"black","layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group has-black-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0;padding-top:var(--wp--preset--spacing--50)"><!-- wp:navigation {"ref":7,"textColor":"white","align":"full","layout":{"type":"flex","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"var:preset|spacing|50"}}} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:spacer {"height":"20px"} -->
@@ -32,7 +32,7 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"stretch","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}},"layout":{"selfStretch":"fill","flexSize":null}},"textColor":"white"} -->
-<p class="has-text-align-center has-white-color has-text-color" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">@2023 Langara Film Festival all rights reserved</p>
+<p class="has-text-align-center has-white-color has-text-color" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">© 2023 LANGARA FILM ARTS all rights reserved</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
