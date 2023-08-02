@@ -1,6 +1,9 @@
 {
 	"settings": {
 		"appearanceTools": true,
+		"color": {
+			"palette": []
+		},
 		"layout": {
 			"contentSize": "620px",
 			"wideSize": "1000px"
@@ -21,14 +24,63 @@
 					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
 					"name": "System Font",
 					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/poppins_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/poppins_normal_700.ttf"
+							]
+						}
+					],
+					"fontFamily": "Poppins",
+					"slug": "poppins"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/inter_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/inter_normal_700.ttf"
+							]
+						}
+					],
+					"fontFamily": "Inter",
+					"slug": "inter"
 				}
 			]
 		},
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
-		"css": "/* Theme Custom CSS start */\n\n.home #modal-5-content li:nth-of-type(1) a,\n.home #modal-40-content li:nth-of-type(1) a,\n\n.page-id-450 #modal-5-content li:nth-of-type(2) a,\n.page-id-450 #modal-32-content li:nth-of-type(2) a,\n\n.page-id-156 #modal-5-content li:nth-of-type(4) a,\n.page-id-156 #modal-36-content li:nth-of-type(4) a,\n\n.post-template-wp-custom-template-bio-director-template #modal-5-content li:nth-of-type(4) a,\n.post-template-wp-custom-template-bio-director-template #modal-32-content li:nth-of-type(4) a,\n\n.post-template-wp-custom-template-bio-writers-template #modal-5-content li:nth-of-type(4) a,\n.post-template-wp-custom-template-bio-writers-template #modal-32-content li:nth-of-type(4) a,\n\n\n.post-template-actors_template-2 #modal-5-content li:nth-of-type(4) a,\n.post-template-actors_template-2 #modal-33-content li:nth-of-type(4) a,\n\n.post-template-film_single_template #modal-5-content li:nth-of-type(2) a,\n.post-template-film_single_template #modal-32-content li:nth-of-type(2) a\n\n\n{\ncolor: #9B51E0;\n}\n\n\n\n.post-template-wp-custom-template-bio-director-template #modal-13 li:nth-of-type(1) a,\n\n.post-template-wp-custom-template-bio-writers-template  #modal-13 li:nth-of-type(2) a,\n\n.post-template-actors_template-2 #modal-13 li:nth-of-type(3) a\n\n\n\n{\ncolor: black;\n}\n\n\n\n\n/* Theme Custom CSS end */",
+		"css": "/* Theme Custom CSS start */\n/* Theme Custom CSS start */\n\n.home #modal-5-content li:nth-of-type(1) a,\n.home #modal-40-content li:nth-of-type(1) a,\n\n.page-id-450 #modal-5-content li:nth-of-type(2) a,\n.page-id-450 #modal-32-content li:nth-of-type(2) a,\n\n.page-id-156 #modal-5-content li:nth-of-type(4) a,\n.page-id-156 #modal-36-content li:nth-of-type(4) a,\n\n.post-template-wp-custom-template-bio-director-template #modal-5-content li:nth-of-type(4) a,\n.post-template-wp-custom-template-bio-director-template #footer li:nth-of-type(4) a,\n\n.post-template-wp-custom-template-bio-writers-template #modal-5-content li:nth-of-type(4) a,\n.post-template-wp-custom-template-bio-writers-template #footer  li:nth-of-type(4) a,\n\n\n.post-template-actors_template-2 #modal-5-content li:nth-of-type(4) a,\n.post-template-actors_template-2 #footer  li:nth-of-type(4) a,\n\n.post-template-film_single_template #modal-5-content li:nth-of-type(2) a,\n.post-template-film_single_template footer nav ul li:nth-of-type(2) a,\n\n.page-template-biographies_template\n#modal-34-content li:nth-of-type(4) a\n\n{\ncolor: #c30097 !important;\n}\n\n\n\n.post-template-wp-custom-template-bio-director-template #modal-13 li:nth-of-type(1) a,\n\n.post-template-wp-custom-template-bio-writers-template  #modal-13 li:nth-of-type(2) a,\n\n.post-template-actors_template-2 #modal-13 li:nth-of-type(3) a\n\n\n\n{\ncolor: black;\n}\n\n.wp-block-search__input{\ndisplay:none;\n}\n\n.wp-block-search__button-inside{\nwidth:50px;\n}\n.wp-block-search__inside-wrapper{\nborder:none;\nmargin-left:1rem;\n}\n\n\n.videoPlayer {\nwidth:100% !important;\nheight:auto !important;\n}\n\n\n\n/* Theme Custom CSS end */\n/* Theme Custom CSS end */",
 		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|poppins"
+				}
+			},
 			"link": {
 				"typography": {
 					"textDecoration": "none"
@@ -42,6 +94,10 @@
 				"right": "5px",
 				"top": "5px"
 			}
+		},
+		"typography": {
+			"fontFamily": "var:preset|font-family|poppins",
+			"fontSize": "var:preset|font-size|medium"
 		}
 	},
 	"templateParts": [
